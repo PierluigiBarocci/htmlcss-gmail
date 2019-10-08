@@ -1,0 +1,106 @@
+/* general */
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    font-stretch: extra-expanded;
+    width: 70%;
+    margin: auto;
+    background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/black-background-full-hd-wallpaper-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* end general */
+
+/* header */
+#header_mail {
+    position: relative;
+    width: 50px;
+    bottom: -7px;
+}
+
+header span {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 10px;
+    }
+header {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+/* end header */
+
+/* search & unread */
+.search {
+    margin-top: 10px;
+    text-align: right;
+}
+#search_box {
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid rgba(191, 191, 191, 0.85);
+    text-align: justify;
+}
+#search_button {
+    width: 20px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    bottom: -5px;
+}
+.read {
+    margin-top: 20px;
+    text-align: right;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+.read p {
+    color: white;
+}
+#unread {
+    font-size: 35px;
+    background-color: rgb(187, 125, 19);
+    border-radius: 40px;
+    padding: 5px;
+}
+/* end search & unread */
+
+/* mail */
+.mail_all {
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.mail {
+    background-color: rgba(191, 191, 191, 0.85);
+    padding: 2px;
+    margin: 5px;
+    border-radius: 25px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: medium;
+
+}
+
+#black_ship {
+    background-color: white;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 25px;
+    ;
+}
+/* end mail */
+
+/* footer */
+#powered {
+    color: white;
+    text-align: center;
+}
+/* end footer */
